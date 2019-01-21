@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	background-color: #fff;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 25px;
+}
+canvas {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+header {
+	height: 100vh;
+	background: linear-gradient(to left, rgba(0, 214, 115, 0.44), rgba(0, 55, 203, 0.46));
+	margin: 0;
+}
+
+/********NAVIGATION********/
+.top-nav {
+	display: flex;
+	margin: 0;
+	flex-direction: row;
+	padding: 0;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.13), rgba(0, 0, 0, 0.42));
+	box-shadow: 0px 2px 20px rgba(88, 88, 88, 0.63);
+}
+.top-nav h3 {
+	flex: 1;
+	color: #bababa;
+	padding: 0;
+	margin: 5px 30px;
+	font-weight: 100;
+	font-size: 140%;
+}
+.top-nav span {
+	flex: 1;
+	padding: 0;
+	margin: 5px 10px;
+	font-weight: 100;
+	font-size: 65%;
+}
+.top-nav p {
+	color: #818181;
+	padding: 0;
+	font-weight: 100;
+	font-size: 75%;
+	margin: auto 10px;
+	height: 100%;
+}
+.top-nav p:last-child {margin-right: 30px}
+.top-nav a {
+	color: #818181;
+	text-decoration: none;
+	transition: color .3s, text-shadow .2s;
+}
+.top-nav a:hover {
+	color: #4e4e4e;
+	text-shadow: 1px 1px 5px rgba(56, 56, 56, 0.5);
+}
+
+/********HEADING********/
+.main-heading {
+	text-align: center;
+	margin: 15% auto 0px auto;
+}
+.main-heading h2 {
+	color: rgba(67, 67, 67, 0.67);
+	font-weight: 100;
+	letter-spacing: -3px;
+	margin: 0;
+}
+.main-heading span {
+	transition: letter-spacing .3s;
+}
+.main-heading span:hover {
+	letter-spacing: 2px;
+}
+.main-heading h3 {
+	color: #525252;
+	font-weight: 100;
+	letter-spacing: -3px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+

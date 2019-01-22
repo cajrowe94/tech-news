@@ -77,15 +77,137 @@ header {
 .main-heading span:hover {
 	letter-spacing: 2px;
 }
-.main-heading h3 {
+.main-heading p {
 	color: #525252;
 	font-weight: 100;
 	letter-spacing: -3px;
 	margin: 0;
 }
+.main-heading hr {
+	color: rgba(100, 100, 100, 0.72);
+	border-style: solid;
+	width: 25%;
+}
+.main-heading p:last-child{
+	margin: 50px 0px;
+}
+.main-heading a {
+	color: rgba(100, 100, 100, 0.72);
+	text-decoration: none;
+	background: transparent;
+	padding: 10px;
+	border-radius: 10%;
+	margin: 20px auto;
+	width: 12%;
+	transition: background .3s, color .3s, box-shadow .3s;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 80%;
+	box-shadow: 0px 2px 10px rgba(100, 100, 100, 0.78);
+}
+.main-heading a:hover,
+.main-heading a:active {
+	color: rgba(67, 67, 67, 0.72);
+	background: rgba(191, 191, 191, 0.53);
+	box-shadow: 0px 0px 60px rgba(100, 100, 100, 0.78);
+}
+.main-heading a:focus {
+	outline: none;
+}
+
+/********SUBSCRIPTIONS********/
+.section-subscriptions {
+	background: rgba(191, 191, 191, 0.53);
+}
+.sub-heading {
+	text-align: center;
+	background-color: rgba(191, 191, 191, 0.53);
+}
+.sub-heading h2 {
+	color: rgba(67, 67, 67, 0.67);
+	font-weight: 100;
+	letter-spacing: -3px;
+	margin: 0 auto;
+	width: 30%;
+	padding: 30px 0 10px 0;
+	border-bottom: 1px solid rgba(100, 100, 100, 0.72);
+}
+.sub-heading p {
+	color: rgba(67, 67, 67, 0.67);
+	font-weight: 100;
+	letter-spacing: -2px;
+	margin: 0;
+	padding-top: 10px;
+	font-size: 80%;
+}
+.sub-list {
+	background: rgba(191, 191, 191, 0.53);
+	padding-top: 20px;
+}
+.sub-rows {
+	display: flex;
+	flex-direction: column;
+}
+.sub-rows {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.sub-rows .row{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+.sub-list .sub {
+	flex: 1;
+	border-radius: 5px;
+	margin: 30px;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: 10px;
+	box-shadow: 0px 2px 10px rgba(67, 67, 67, 0.24);
+	transition: background-color .4s, border .4s, box-shadow .4s;
+}
+.sub-list .sub:hover {
+	border: 1px solid rgba(191, 191, 191, 0.73);
+	box-shadow: 0px 4px 45px rgba(0, 150, 116, 0.51);
+	background-color: rgba(191, 191, 191, 0.73);
+}
+.sub-list .sub .sub-title{
+	color: rgba(67, 67, 67, 0.84);
+	font-size: 120%;
+	font-weight: 100;
+	margin: 10px auto;
+	width: 75%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(67, 67, 67, 0.84);
+}
+.sub-list .sub .sub-desc {
+	color: rgba(67, 67, 67, 0.84);
+	font-size: 70%;
+	font-weight: 100;
+	margin: 0;
+}
+.sub p:last-child{
+	color: #fff;
+	margin: 10px;
+	padding: 5px;
+	transition: background-color .3s;
+	border-radius: 5px;
+	box-shadow: 0px 2px 10px rgba(67, 67, 67, 0.31);
+}
+.sub a {
+	text-decoration: none;
+	font-size: 80%;
+	transition: color .3s;
+	color: rgba(67, 67, 67, 0.84);
+}
+.sub p:last-child:hover {
+	color: #fff;
+	background-color: rgba(0, 196, 166, 0.36);
+}
 
 
-
+/*******RESPONSIVENESS*******/
 
 
 

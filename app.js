@@ -19,6 +19,12 @@ $(document).ready(function(){
 		mouse.y = e.clientY;
 	});
 	
+	$("#sub-link").click(function(){
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $(".section-subscriptions").offset().top
+		}, 1000);
+	});
+	
 	for (var i = 0; i < 1000; i++){
 		var point = new Point();
 		points.push(point);
@@ -72,7 +78,7 @@ function checkCollisions(){
 			dist = calcDist(points[i].x, points[i].y, points[j].x, points[j].y);
 			var mouseDist = calcDist(mouse.x, mouse.y, points[j].x, points[j].y);
 				if (dist < 50 && dist > 1){
-					if (mouseDist < 100){
+					if (mouseDist < 150){
 						c.strokeStyle = 'rgba(0, 0, 0, 0.56)';
 					} else c.strokeStyle = 'rgb(255, 255, 255)';
 					c.beginPath();
